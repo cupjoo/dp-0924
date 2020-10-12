@@ -6,6 +6,18 @@
 
 ![2.png](docs/2.PNG)
 
+### How to run app
+
+```bash
+$ git clone https://github.com/cupjoo/tower-depense.git
+$ cd tower-defense
+$ pip install virtualenv
+$ virtualenv venv
+$ venv\Scripts\activate
+$ pip install -r requirements.txt
+$ python main.py
+```
+
 ### 게임 규칙
 
 - 각 Wave 마다 몰려오는 적들을 대포로 맞춰 물리쳐야 한다.
@@ -19,3 +31,9 @@
 ![4.gif](docs/4.gif)
 
 ![5.gif](docs/5.gif)
+
+![6.gif](docs/6.gif)
+
+### Reference
+
+[Original Project Repository](https://github.com/cupjoo/room_escape/tree/main/project)
